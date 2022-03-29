@@ -13,7 +13,7 @@ function App() {
   const changeName = useCallback(()=>{
     setName(Math.random().toString())
     
-  },[name])
+  },[])
   useEffect(()=>{
     document.title = `你已经点击${counter}次了`
   },[counter]
